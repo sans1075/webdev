@@ -5,10 +5,18 @@ h1 {
 }
 
 @keyframes h2 {
-  from {background-color: red;}
-  to {background-color: yellow;}
-  from {color: yellow;}
-  to {color: red;}
+  from {background-color: white;}
+  to {background-color: #090e87;}
+  from {color: #090e87;}
+  to {color: white;}
   from {text-align: left;}
   to {text-align: right;}
+}
+
+h2 {
+  background-color: white;
+  color: #090e87;
+  text-align: left;
+  animation-name: h2;
+  animation-duration: 10s;
 }
