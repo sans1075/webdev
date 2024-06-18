@@ -1,6 +1,6 @@
 @keyframes h1 {
   0% {background-color: white; color: #090e87; text-align: left; font-size: 100px;}
-  50% {background-color: red; color: red; text-align: center; font-size: 50px;}
+  50% {background-color: #cecfe7; color: #3a3e9f; text-align: center; font-size: 50px;}
   100% {background-color: #090e87; color: white; text-align: right; font-size: 10px;}
 }
 
