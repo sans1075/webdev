@@ -1,53 +1,53 @@
 @keyframes h1 {
-  0% {background-color: white; color: #090e87; margin-left: 1000px; font-size: 100px;}
-  25% {background-color: #cecfe7; color: #3a3e9f; margin: 0 250px; font-size: 50px;}
-  50% {background-color: #090e87; color: white; margin-right: 1000px; font-size: 10px;}
-  75% {background-color: #cecfe7; color: #3a3e9f; margin: 0 250px; font-size: 50px;}
-  100% {background-color: white; color: #090e87; margin-left: 1000px; font-size: 100px;}
+  0% {background-color: white; color: #090e87; margin-left: 50%; font-size: 500%;}
+  20% {background-color: #cecfe7; color: #3a3e9f; margin: 0 25%; font-size: 250%;}
+  40% {background-color: #090e87; color: white; margin-right: 50%; font-size: 125%;}
+  60% {background-color: #cecfe7; color: #3a3e9f; margin: 0 25%; font-size: 250%;}
+  80% {background-color: white; color: #090e87; margin-left: 50%; font-size: 500%;}
+  100% {margin: 0; text-align: center; font-size: 750%;}
 }
 
 h1 {
   background-color: white;
   font-family: Oswald;
   color: #090e87;
-  padding: 10px 100px;
-  font-size: 100px;
+  font-size: 750%;
   text-align: center;
-  margin: 0 0;
-  margin-left: 1000px;
   animation-name: h1;
   animation-duration: 10s;
 }
 
-@keyframes .barrell {
-  0% {transform: rotate(0deg);}
-  5% {transform: rotate(18deg);}
-  10% {transform: rotate(36deg);}
-  15% {transform: rotate(54deg);}
-  20% {transform: rotate(72deg);}
-  25% {transform: rotate(90deg);}
-  30% {transform: rotate(108deg);}
-  35% {transform: rotate(126deg);}
-  40% {transform: rotate(144deg);}
-  45% {transform: rotate(162deg);}
-  50% {transform: rotate(180deg);}
-  55% {transform: rotate(198deg);}
-  60% {transform: rotate(216deg);}
-  65% {transform: rotate(234deg);}
-  70% {transform: rotate(252deg);}
-  75% {transform: rotate(270deg);}
-  80% {transform: rotate(288deg);}
-  85% {transform: rotate(306deg);}
-  90% {transform: rotate(324deg);}
-  95% {transform: rotate(342deg;)}
-  100% {transform: rotate(360deg);}
+@keyframes barrell {
+  0% {transform: rotate(0deg); color: #ffffff;}
+  5% {transform: rotate(18deg); color: #e6e6e6;}
+  10% {transform: rotate(36deg); color: #cccccc;}
+  15% {transform: rotate(54deg); color: #b3b3b3;}
+  20% {transform: rotate(72deg); color: #999999;}
+  25% {transform: rotate(90deg); color: #808080;}
+  30% {transform: rotate(108deg); color: #666666;}
+  35% {transform: rotate(126deg); color: #4d4d4d;}
+  40% {transform: rotate(144deg); color: #333333;}
+  45% {transform: rotate(162deg); color: #1a1a1a;}
+  50% {transform: rotate(180deg); color: #000000;}
+  55% {transform: rotate(198deg); color: #1a1a1a;}
+  60% {transform: rotate(216deg); color: #333333;}
+  65% {transform: rotate(234deg); color: #4d4d4d;}
+  70% {transform: rotate(252deg); color: #666666;}
+  75% {transform: rotate(270deg); color: #808080;}
+  80% {transform: rotate(288deg); color: #999999;}
+  85% {transform: rotate(306deg); color: #b3b3b3;}
+  90% {transform: rotate(324deg); color: #cccccc;}
+  95% {transform: rotate(342deg;); color: #e6e6e6;}
+  100% {transform: rotate(360deg); color: #ffffff;}
 }
 
-h2 {
+.barrell {
 font-family: Oswald;
 text-align: center;
 transform: rotate(0deg);
+font-size: 150%;
 animation-name: barrell;
-animation-duration: 5s;
+animation-duration: 1s;
 animation-delay: 10s;
+animation-iteration-count: 5;
 }
