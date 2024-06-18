@@ -1,17 +1,20 @@
+.oswald-oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@keyframes h1 {
+  0% {background-color: white; color: #090e87; text-align: left; margins: 10px 10px;}
+  100% {background-color: #090e87; color: white; text-align: right; margins: 0px 0px;}
+}
+
 h1 {
-  color: #02132e;
-  background-color: lightgrey;
-  text-align: center;
-}
-
-@keyframes h2 {
-  0% {background-color: white; color: #090e87; text-align: left;}
-  100% {background-color: #090e87; color: white; text-align: right;}
-}
-
-h2 {
   background-color: white;
+  font-family: oswald;
   color: #090e87;
+  margins: 10px 10px;
   text-align: left;
   animation-name: h2;
   animation-duration: 10s;
