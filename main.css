@@ -5,12 +5,8 @@ h1 {
 }
 
 @keyframes h2 {
-  from {background-color: white;}
-  to {background-color: #090e87;}
-  from {color: #090e87;}
-  to {color: white;}
-  from {text-align: left;}
-  to {text-align: right;}
+  0% {background-color: white; color: #090e87; text-align: left;}
+  100% {background-color: #090e87; color: white; text-align: right;}
 }
 
 h2 {
